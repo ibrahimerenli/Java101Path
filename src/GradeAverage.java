@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class NotOrt {
+public class GradeAverage {
     public static void main(String[] args) {
         int math, physics, chemistry, turkish, history, music;
         double avg;
