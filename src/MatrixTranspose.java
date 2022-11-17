@@ -32,9 +32,9 @@ public class MatrixTranspose {
                 arr[i][j] = matrix[j][i];
     }
     static void getMatrix(int[][] matrix, int row, int col){
-        int i, j;
-        for (i = 0; i < col; i++){
-            for (j = 0; j < row; j++)
+        
+        for (int i = 0; i < col; i++){
+            for (int j = 0; j < row; j++)
                 System.out.print(matrix[i][j] + " "); 
             System.out.println();
         }
